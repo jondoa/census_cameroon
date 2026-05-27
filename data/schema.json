@@ -174,8 +174,8 @@
     "xls": "https://kc.kobotoolbox.org/pdba/reports/aaoCZKsTPkLeLhdB6wDXdW/export.xlsx",
     "csv": "https://kc.kobotoolbox.org/pdba/reports/aaoCZKsTPkLeLhdB6wDXdW/export.csv"
   },
-  "deployment__submission_count": 519,
-  "deployment__last_submission_time": "2026-05-27T16:15:38.111268Z",
+  "deployment__submission_count": 520,
+  "deployment__last_submission_time": "2026-05-27T20:37:30.572142Z",
   "deployment__encrypted": false,
   "deployment__uuid": "2d20927490df4280b829f69dcc13dc6b",
   "deployment_status": "deployed",
@@ -10627,13 +10627,7 @@
   ],
   "effective_permissions": [
     {
-      "codename": "delete_submissions"
-    },
-    {
-      "codename": "delete_asset"
-    },
-    {
-      "codename": "change_submissions"
+      "codename": "view_submissions"
     },
     {
       "codename": "manage_asset"
@@ -10645,13 +10639,19 @@
       "codename": "view_asset"
     },
     {
-      "codename": "change_asset"
-    },
-    {
       "codename": "validate_submissions"
     },
     {
-      "codename": "view_submissions"
+      "codename": "change_submissions"
+    },
+    {
+      "codename": "delete_submissions"
+    },
+    {
+      "codename": "delete_asset"
+    },
+    {
+      "codename": "change_asset"
     }
   ],
   "exports": "https://kf.kobotoolbox.org/api/v2/assets/aaoCZKsTPkLeLhdB6wDXdW/exports/?format=json",
