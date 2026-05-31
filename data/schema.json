@@ -174,8 +174,8 @@
     "xls": "https://kc.kobotoolbox.org/pdba/reports/aaoCZKsTPkLeLhdB6wDXdW/export.xlsx",
     "csv": "https://kc.kobotoolbox.org/pdba/reports/aaoCZKsTPkLeLhdB6wDXdW/export.csv"
   },
-  "deployment__submission_count": 559,
-  "deployment__last_submission_time": "2026-05-31T08:38:31.429054Z",
+  "deployment__submission_count": 570,
+  "deployment__last_submission_time": "2026-05-31T11:41:53.972255Z",
   "deployment__encrypted": false,
   "deployment__uuid": "2d20927490df4280b829f69dcc13dc6b",
   "deployment_status": "deployed",
@@ -10627,7 +10627,10 @@
   ],
   "effective_permissions": [
     {
-      "codename": "manage_asset"
+      "codename": "validate_submissions"
+    },
+    {
+      "codename": "view_asset"
     },
     {
       "codename": "change_submissions"
@@ -10636,16 +10639,13 @@
       "codename": "add_submissions"
     },
     {
-      "codename": "view_submissions"
-    },
-    {
-      "codename": "validate_submissions"
-    },
-    {
       "codename": "change_asset"
     },
     {
-      "codename": "view_asset"
+      "codename": "view_submissions"
+    },
+    {
+      "codename": "manage_asset"
     },
     {
       "codename": "delete_asset"
