@@ -10627,10 +10627,22 @@
   ],
   "effective_permissions": [
     {
-      "codename": "change_submissions"
+      "codename": "change_asset"
+    },
+    {
+      "codename": "manage_asset"
+    },
+    {
+      "codename": "view_submissions"
     },
     {
       "codename": "validate_submissions"
+    },
+    {
+      "codename": "delete_asset"
+    },
+    {
+      "codename": "add_submissions"
     },
     {
       "codename": "delete_submissions"
@@ -10639,19 +10651,7 @@
       "codename": "view_asset"
     },
     {
-      "codename": "view_submissions"
-    },
-    {
-      "codename": "delete_asset"
-    },
-    {
-      "codename": "change_asset"
-    },
-    {
-      "codename": "manage_asset"
-    },
-    {
-      "codename": "add_submissions"
+      "codename": "change_submissions"
     }
   ],
   "exports": "https://kf.kobotoolbox.org/api/v2/assets/aaoCZKsTPkLeLhdB6wDXdW/exports/?format=json",
