@@ -16,8 +16,8 @@
     ],
     "data-table": {
       "sort-by": {
-        "value": "ASCENDING",
-        "fieldId": "identification/date_saisie"
+        "value": "DESCENDING",
+        "fieldId": "identification/date_demarrage_zc"
       }
     },
     "description": "▸ Qui remplit ?\tLe Chef d'équipe, à l'issue de chaque journée sur le terrain, sous la supervision du Superviseur BUCREP.\n▸ Une fiche par quoi ?\tUne fiche par équipe et par journée de supervision.\n▸ Comment répondre ?\tCases numériques : inscrire le chiffre.  Phase : cocher ☐. — Section 4 : cocher ☐ Oui ou ☐ Non et renseigner la justification à droite.\n▸ Justification ?\tObligatoire dès qu'une difficulté est cochée « Oui ». Indiquer le nombre de cas, le nom de la ZD, ou tout élément permettant une action corrective rapide.\n▸ Transmission ?\tÀ transmettre au Superviseur BUCREP puis à la Coordination Nationale avant 18h00 le jour même, par voie électronique ou via le questionnaire en ligne.\n▸ Rappel\tUne réponse cochée sans justification n'est pas exploitable. Le champ \"Justification / éléments observés\" est indispensable pour déclencher une action corrective ciblée.\n",
@@ -70,11 +70,11 @@
     "default_translation": "French (fr)"
   },
   "date_created": "2026-04-30T22:09:43.160497Z",
-  "date_modified": "2026-06-04T00:22:41.976126Z",
+  "date_modified": "2026-06-05T16:56:11.327218Z",
   "date_deployed": "2026-05-05T21:56:46.690611Z",
-  "version_id": "vmSo8oSxvpXynubGNRZwpq",
+  "version_id": "vnME2XyekYp4qdP7m5pBBo",
   "version__content_hash": "f5a04fbc9982017ea7614bd27d2e0c2ec866f920",
-  "version_count": 26,
+  "version_count": 33,
   "has_deployment": true,
   "deployed_version_id": "v8GvgwLYvhWeWtPwffe9dW",
   "deployed_versions": {
@@ -10633,22 +10633,10 @@
   ],
   "effective_permissions": [
     {
-      "codename": "change_asset"
-    },
-    {
-      "codename": "add_submissions"
-    },
-    {
       "codename": "manage_asset"
     },
     {
-      "codename": "validate_submissions"
-    },
-    {
       "codename": "view_submissions"
-    },
-    {
-      "codename": "delete_asset"
     },
     {
       "codename": "delete_submissions"
@@ -10657,7 +10645,19 @@
       "codename": "view_asset"
     },
     {
+      "codename": "delete_asset"
+    },
+    {
       "codename": "change_submissions"
+    },
+    {
+      "codename": "change_asset"
+    },
+    {
+      "codename": "validate_submissions"
+    },
+    {
+      "codename": "add_submissions"
     }
   ],
   "exports": "https://kf.kobotoolbox.org/api/v2/assets/aaoCZKsTPkLeLhdB6wDXdW/exports/?format=json",
