@@ -10639,13 +10639,10 @@
       "codename": "add_submissions"
     },
     {
-      "codename": "validate_submissions"
-    },
-    {
       "codename": "view_submissions"
     },
     {
-      "codename": "manage_asset"
+      "codename": "change_submissions"
     },
     {
       "codename": "change_asset"
@@ -10654,7 +10651,10 @@
       "codename": "delete_asset"
     },
     {
-      "codename": "change_submissions"
+      "codename": "validate_submissions"
+    },
+    {
+      "codename": "manage_asset"
     },
     {
       "codename": "view_asset"
