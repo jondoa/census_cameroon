@@ -1,0 +1,35 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node analyze_full.js)",
+      "Bash(gh pr *)",
+      "Bash(git push *)",
+      "Bash(git pull *)",
+      "Bash(git checkout *)",
+      "Bash(git add *)",
+      "Bash(git rebase *)",
+      "Bash(GIT_EDITOR=true git rebase --continue)",
+      "Bash(node -e ' *)",
+      "Bash(git commit -m 'Sync: 28 fiches \\(3 manquantes récupérées\\) — données au 04 mai 2026 *)",
+      "mcp__Claude_in_Chrome__tabs_context_mcp",
+      "Bash(git commit -m ' *)",
+      "Bash(pip install *)",
+      "Bash(python3 -m pip install python-docx python-pptx -q)",
+      "Bash(where python *)",
+      "Bash(py --version)",
+      "Bash(py -m pip install python-docx python-pptx -q)",
+      "Bash(py -m pip install python-docx python-pptx --user -q)",
+      "Bash(py -c ' *)",
+      "Bash(git remote *)",
+      "Bash(git config *)",
+      "Bash(ssh -T -p 443 git@ssh.github.com)",
+      "Bash(ssh -T -p 443 -o StrictHostKeyChecking=accept-new git@ssh.github.com)",
+      "Bash(curl -s \"https://jondoa.github.io/census_supervisors/data/submissions.json\")",
+      "Bash(python -c ' *)",
+      "Bash(where ssh *)",
+      "Bash(ssh -V)",
+      "Bash(findstr ssh *)",
+      "Bash(ls ~/.ssh/)"
+    ]
+  }
+}
