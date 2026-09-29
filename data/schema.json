@@ -10646,25 +10646,25 @@
       "codename": "manage_asset"
     },
     {
-      "codename": "validate_submissions"
+      "codename": "view_submissions"
     },
     {
-      "codename": "delete_submissions"
+      "codename": "validate_submissions"
     },
     {
       "codename": "change_asset"
     },
     {
-      "codename": "change_submissions"
-    },
-    {
       "codename": "view_asset"
     },
     {
-      "codename": "view_submissions"
+      "codename": "delete_submissions"
     },
     {
       "codename": "delete_asset"
+    },
+    {
+      "codename": "change_submissions"
     },
     {
       "codename": "add_submissions"
