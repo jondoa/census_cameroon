@@ -10646,6 +10646,9 @@
       "codename": "manage_asset"
     },
     {
+      "codename": "change_submissions"
+    },
+    {
       "codename": "validate_submissions"
     },
     {
@@ -10656,9 +10659,6 @@
     },
     {
       "codename": "add_submissions"
-    },
-    {
-      "codename": "change_submissions"
     },
     {
       "codename": "view_submissions"
